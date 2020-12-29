@@ -1,0 +1,5 @@
+864425046016337
+
+for i in range(len(fileList)):
+	dfTem=pd.read_excel(fileList[i],encoding='utf_8_sig')
+	pd.concat([dfTem,df],join='outer',axis=0)

@@ -1,0 +1,108 @@
+用户表是充值648返利240 的挡位没有给，之前充值的挡位是648返利380的
+
+verbose
+debug
+warning
+error
+info
+
+byte fooByte=100;
+short fooShort =10000;
+int fooInt=1;
+type name
+long fooLong=1;
+float fooFloat=1;
+char fooChar='A';
+final int HOURS_I_WORK_PER_WEEK=9001;
+String fooString="my string is here"
+String barString="printing on a new line?\nNo problem"
+String bazString="do you want to add a tab\tNo problem"
+System.out.println(fooString);
+System.out.println(barString);
+System.out.println(bazString);
+int [] intArray=new int[10];
+String [] stringArray=new String[10];
+boolean [] booleanArray=new boolena[10];
+
+
+int [] intArray=new int[10];
+String [] StringArray=new String[10];
+boolean [] booleanArray=new boolean[100];
+System.out.println("intArray"+intArray[0]);
+int _a=10;
+int j=10;
+if(j==10){
+	System.out.println("I don't");
+}else if{
+	System.out.println("I dont");
+}else{
+	System.out.println("I dont");
+}
+
+int fooWhile=0;
+while(fooWhile<100){
+	fooWhile++;
+}
+System.out.println(fooWhile);
+int fooDoWhile=0;
+
+do{
+	fooDoWhile++;
+}while(fooDoWhile<100);
+
+int fooFor;
+for(fooFor=0;foo<100;foo++){
+	
+}
+
+System.out.println(fooFor);
+int month=3;
+String monthString;
+switch(month){
+	case 1:
+		monthString="january";
+		break;
+	case 2:
+		monthString="ferbuary";
+		break;
+		
+	case 3:
+		monthString="march";
+		break;
+	case 4:
+		monthString="april";
+		break;
+	default:
+		monthString="some other month";
+		break;
+}
+System.out.println("switch case result:"+monthString);
+
+int fooFor;
+for(fooFor=0;fooFor<100;fooFor++){
+	System.out.println(fooFor);
+}
+
+System.out.println(fooFor);
+
+Integer.parse("123");
+Integer.toString(123);
+Bicycle trek=new Bicycle();
+
+
+
+Bicycle trek=new Bicycle();
+
+
+public int Bicycle(){
+	
+	return 
+}
+
+int [] fooInt=new int[10];
+String [] fooString=new String[10];
+
+int [] fooInt=new int[10];
+float [] fooFloat=new float[10];
+String [] fooString=new String[10];
+Boolean [] fooBoolean =new Boolean[100];

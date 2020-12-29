@@ -1,0 +1,80 @@
+45610958@qq.com
+1654362145@qq.com
+
+214680321@qq.com
+
+
+双莓
+红豆奶茶
+鲜榨橙汁
+黑砖奶茶
+双莓
+芝士牛牛
+红豆奶茶
+西瓜汁
+清爽柠檬水
+橙意满满
+超级水果
+茶
+
+854919231@qq.com
+
+1126698593@qq.com
+Set-Executionpolicy Bypass -Scope process -Force; [System.Net.Servicepointmanager]::Securityprotocol =[System.Net.Servicepointmanager]::SecurityProtocol -bor 3027;iex((New-Object System.Net.Webclient).Downloadstring('https://chocolatey.org/install.ps1'))
+
+
+
+1281414920@qq.com
+1123060147@qq.com
+20200610110508301646039765570624
+
+1782852315@qq.com
+610321199403042719
+410521198709212054
+130182199212011570
+
+已回访告知用户是拦截名单内，后续用户来电反馈相关问题，可告知用户积分商城有兑换规则，多个帐号、设备、同一收件地址都是限兑一次，若发现违规的情况发生，会取消订单，并无法退回积分。无需重复录单
+
+343375444@qq.com
+
+52232219990223982x
+52232219990223982x
+D320200614071438546612
+2020061422001476501430832903
+MI202006120155
+MI202006130041
+MI202006130106
+MI202006130176
+MI202006130187
+MI202006130209
+MI202006160309
+MI202006170227
+MI202006030122
+MI202006120332
+MI202006120336
+MI202006130063
+MI202006130179
+MI202006160300
+MI202006170200
+MI202006120249
+MI202006120362
+MI202006130057
+MI202006100096
+MI202006100116
+MI202006120069
+MI202006170295
+MI202006100153
+asdfsadfsadf阿斯蒂芬撒旦飞洒地方
+
+
+6228481778784109977
+895551434@qq.com
+
+
+def extracApp(data):
+    for i in range(len(data)):
+            try:
+                    appList.append(regex.search(str(data.loc[i,'咨询内容'])).group(1))
+            except:
+                    appList.append('None')
+MI202006130086

@@ -1,0 +1,5 @@
+[/<script>
+while True{
+	println('hello,world')
+}
+</script>/]

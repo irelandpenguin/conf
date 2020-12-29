@@ -1,0 +1,9 @@
+for i in data['反馈内容']:
+	try:
+		roleList.append(role_regex.search(i).group(1))
+	except:
+		roleList.append('None')
+	try:
+		sectorList.append(sector_regex.search(i).group(1))
+	except:
+		sectorList.append('None')

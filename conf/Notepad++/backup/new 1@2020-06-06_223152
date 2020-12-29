@@ -1,0 +1,13 @@
+class human(object):
+	species='H.sapien'
+	def __init__(self,name):
+		self.name=name
+		self.age=0
+	def say(self,msg):
+		print('{name}:{message}'.format(name=self.name,message=msg))
+	@classmethod
+	def get_species(cls):
+		return cls.species
+	@staticmethod
+	def grunt():
+		return '*grunt*'

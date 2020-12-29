@@ -1,0 +1,58 @@
+#!/bin/bash
+echo hello,world!
+echo 'this is the first line'; echo 'this is the second line'
+variable="some string"
+echo $variable
+echo "$variable"
+echo '$variable'
+echo ${variable/some/a}
+length=7
+echo ${variable:0:length}
+echo "last program return value:$?"
+echo "script's id :$$"
+echo "name of argument:$#"
+echo "scrips arguments:$@"
+echo "script arguments separated in deifferent variable :$1 $2"
+echo "what's your name?"
+read name
+echo hello,$name!
+if [ $name -ne $user]
+then 
+	echo "your name isn't your name"
+else
+	echo "your name is your username"
+fi
+ echo $(( 10+5 ))
+
+ls
+ls -l
+ls -l |grep "\.txt"
+cat >hello.py <<eof
+
+#!/usr/bin/evn python
+from__future__ import print__function
+import sys
+print('#stdout',file=sys.stdout)
+print("#stderr",file=sys.stderr)
+for line  in sys.stdin:
+	print(line,file=sys.stdout)
+eof
+
+python hello.py <"input.in"
+python hello.py >"output.out"
+python hello.py 2> "error.err"
+python hello.py > "output-and-error.log"
+python hello.py > /dev/null 2>&1
+
+info bash 'basic shell features' 'redirections'>outoput.out 2>>error.err
+wc -l output.out error.err
+python hello.py > "output.out"
+python hello.py < "input.in"
+python hello.py 2> "error.err"
+python hello.py > "output-and-error.log" 2&>1 
+python hello.py > /dev/null 2&>1
+python hello.py >> "output.out" 2>> "error.err"
+
+info bash 'basic shell features' 'redirections'>output.out 2>>error.err
+wc -l output.out error.err
+echo <(echo "#hello,world")

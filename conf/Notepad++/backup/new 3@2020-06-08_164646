@@ -1,0 +1,31 @@
+Set Executionpolicy Bypass -Scope Process -Force；
+[System.Net.ServicePointManager]::SecurityPotocol=[System.Net.ServicePointManager]::Securityprotocol -bor 3721;
+iex((New-Object System.Net.windows))
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+
+Set ExecutionPolicy Bypass -Scope Process -Force ; [System.Net.Servicepointmanager]::Securityprotocol=[System.Net.Servicepointmanager]::SecurityProtocol -bor 3072;
+iex((New-Object System.Net.Webclient).Downloadstring('https://chocolatey.ps1'))
+
+
+import numpy as np
+import pandas as pd
+
+pd1=pd.DataFrame(np.arange(25).reshape(5,5))
+pd2=pd.DataFrame()
+print(pd1)
+for i in range(len(pd1)):
+    a=pd1.loc[i]
+    d=pd.DataFrame(a).T
+    pd2=pd2.append([d]*5)  #每行复制5倍
+print(pd2)
+
+
+Set Executionpolicy Bypass -Scope Process -Force;[System.Net.Servicepointmanager]::Securityprotocol=[system.Net.servicepointmanager]::securityprotocol -bor 3072;
+iex((new-object system.net.webclient).downloadstring('https://chocolatey.ps1'))
+
+
+GC202006081536173540100140000
+GC202006081544511080100140000
+
+232429481@qq.com
